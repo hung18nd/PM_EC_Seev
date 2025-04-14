@@ -1,0 +1,25 @@
+Đây là LOG file phần mềm Aray Led Test 
+[2025-01-05 21:02:50.736] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'updated_at'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string)
+ClientConnectionId:340298d1-75dc-4d75-bd18-75241a5a1e6c
+Error Number:102,State:1,Class:15
+INSERT INTO Tbl_Waste_Management_Waste_Data (waste_id,weighing_order_id,caculator_type,gross_weight,tare_weight,net_weight,number_of_pallets,number_of_bars,created_at,is_use) VALUES(79,8,N'Thao tác',507.0,58.0,449.0,0,0,'2025-01-05 21:02:50',1);UPDATE Tbl_Waste_Management_Weighing_Compound SET net_weight = 877.00updated_at = '2025-01-05' WHERE pkid = 1
+[2025-01-05 21:04:21.868] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'updated_at'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string)
+ClientConnectionId:340298d1-75dc-4d75-bd18-75241a5a1e6c
+Error Number:102,State:1,Class:15
+INSERT INTO Tbl_Waste_Management_Waste_Data (waste_id,weighing_order_id,caculator_type,gross_weight,tare_weight,net_weight,number_of_pallets,number_of_bars,created_at,is_use) VALUES(79,8,N'Thao tác',508.0,58.0,450.0,0,0,'2025-01-05 21:03:28',1);UPDATE Tbl_Waste_Management_Weighing_Compound SET net_weight = 878.00updated_at = '2025-01-05' WHERE pkid = 1

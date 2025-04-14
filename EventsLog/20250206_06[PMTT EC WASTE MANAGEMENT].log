@@ -1,0 +1,13 @@
+Đây là LOG file phần mềm Aray Led Test 
+[2025-02-06 06:28:39.989] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'update_at'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string)
+ClientConnectionId:0e316216-a5b3-470c-8532-394ec0af0021
+Error Number:207,State:1,Class:16
+UPDATE Tbl_Waste_Management_Waste_Data SET is_upload = 1, update_at = '2025-02-06 06:26:50' WHERE pkid = 1;UPDATE Tbl_Waste_Management_Waste_Data SET is_upload = 1, update_at = '2025-02-06 06:26:50' WHERE pkid = 2;

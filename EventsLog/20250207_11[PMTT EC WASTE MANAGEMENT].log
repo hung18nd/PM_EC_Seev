@@ -1,0 +1,37 @@
+Đây là LOG file phần mềm Aray Led Test 
+[2025-02-07 11:45:57.605] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'is_upload'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\Winform\DXApplication1\Common\SQLFunc.cs:line 232
+ClientConnectionId:94215344-6293-4c36-91ff-df723640ad39
+Error Number:207,State:1,Class:16
+INSERT INTO Tbl_Waste_Management_Waste_Data (waste_id,weighing_order_id,caculator_type,gross_weight,tare_weight,net_weight,number_of_pallets,number_of_bars,created_at,is_use,trolley_id) VALUES(870,1037,N'Tự động',158.0,0.0,158.0,0,0,'2025-02-07 11:45:57',1,0);UPDATE Tbl_Waste_Management_Weighing_Compound SET net_weight = 316.00,is_upload = 0,update_at = '2025-02-07' WHERE pkid = 1019
+[2025-02-07 11:46:02.040] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'is_upload'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\Winform\DXApplication1\Common\SQLFunc.cs:line 232
+ClientConnectionId:94215344-6293-4c36-91ff-df723640ad39
+Error Number:207,State:1,Class:16
+INSERT INTO Tbl_Waste_Management_Waste_Data (waste_id,weighing_order_id,caculator_type,gross_weight,tare_weight,net_weight,number_of_pallets,number_of_bars,created_at,is_use,trolley_id) VALUES(870,1037,N'Tự động',158.0,0.0,158.0,0,0,'2025-02-07 11:46:01',1,0);UPDATE Tbl_Waste_Management_Weighing_Compound SET net_weight = 316.00,is_upload = 0,update_at = '2025-02-07' WHERE pkid = 1019
+[2025-02-07 11:55:33.487] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'is_upload'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string)
+ClientConnectionId:94215344-6293-4c36-91ff-df723640ad39
+Error Number:207,State:1,Class:16
+INSERT INTO Tbl_Waste_Management_Waste_Data (waste_id,weighing_order_id,caculator_type,gross_weight,tare_weight,net_weight,number_of_pallets,number_of_bars,created_at,is_use,trolley_id) VALUES(870,1037,N'Tự động',158.0,0.0,158.0,0,0,'2025-02-07 11:47:15',1,0);UPDATE Tbl_Waste_Management_Weighing_Compound SET net_weight = 316.00,is_upload = 0,update_at = '2025-02-07' WHERE pkid = 1019

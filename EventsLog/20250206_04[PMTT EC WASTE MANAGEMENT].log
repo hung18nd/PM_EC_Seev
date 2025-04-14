@@ -1,0 +1,13 @@
+Đây là LOG file phần mềm Aray Led Test 
+[2025-02-06 04:58:26.701] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'updated_at'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string)
+ClientConnectionId:ce08ebeb-b1b2-4c3f-9963-15d1e5bdc7c4
+Error Number:207,State:1,Class:16
+INSERT INTO Tbl_Waste_Management_Waste_Data (waste_id,weighing_order_id,caculator_type,gross_weight,tare_weight,net_weight,number_of_pallets,number_of_bars,created_at,is_use,trolley_id) VALUES(4,3,N'Tự động',158.0,0.0,158.0,0,0,'2025-02-06 04:56:58',1,0);INSERT INTO Tbl_Waste_Management_Weighing_Compound (net_weight,waste_code_id,category_id,treatment_id,weighing_type_id,characteristic_id,classification_id,dashboard_column_id,compound_date,updated_at)VALUES(158.0,'1',1,1,1, 1,1,1,'2025-02-06','2025-02-06 04:56:58')

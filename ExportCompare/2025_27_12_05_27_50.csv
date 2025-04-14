@@ -1,0 +1,72 @@
+﻿STT,Mã phế thải nhập vào,Tên phế thải nhập vào,Mã phế thải xuất ra,Tên phế thải xuất ra,Khối lượng nhập vào (kg),Khối lượng xuất ra (kg),Khối lượng tồn (kg)
+1,N01W1,Nhựa PP (nilon),N01W1,White P plastic ( Phế liệu nhựa loại 6),0,0,0
+2,N01W2,Nhựa PVC,N01W2,White C Plastic ( Phế liệu nhựa loại 5),0,0,0
+3,N01W3,Nhựa màu,N01W3,Color plastic scrap ( Phế liệu nhựa màu),0,0,0
+4,N01W4,Nhựa trắng,N01W4,White E Plastic scrap ( Phế liệu nhựa trắng ),0,0,0
+5,N01W5,Pallet nhựa,N01W5,Pallet plastic scrap ( Phế liệu nhựa loại 3 ),0,0,0
+6,N01W6,Đĩa nhựa,N01W6,Disc plastic scrap ( Phế liệu nhựa loại 4 ),0,0,0
+7,N01W7,Phế liệu tấm nhựa đệm,N01W7,Large Supporting board scrap ( Phế liệu tấm nhựa đệm),0,0,0
+8,N02W1,Bìa giấy carton,N02W1,Carton paper scrap (Phế liệu bìa giấy),0,0,0
+9,N02W2,Phế liệu ống carton,N02W2, Carton core scrap (Phế liệu ống giấy),0,0,0
+10,N02W3,Giấy in,N02W3,Printing paper scrap (Phế liệu giấy loại 3) ,0,0,0
+11,N02W4,Giấy CL,N02W4,CL paper scrap (Phế liệu giấy loại 1),0,0,0
+12,N02W5,Giấy trắng,N02W5,White paper scrap (Phế liệu giấy loại 2) ,0,0,0
+13,N03W1,Phế liệu Inox,N03W1,Inox 304 scrap (Phế liệu Inox),0,0,0
+14,N03W2,Phế liệu sắt vụn,N03W2,Steel scrap (Phế liệu sắt vụn),0,0,0
+15,N03W3,Đinh NC thải,N03W3,Mũi khoan NC NG,0,0,0
+16,N03W4,Phế liệu dây chì thải,N03W4,Dây chì,0,180.00,-180.00
+17,N03W5,Phế liệu nhôm,N03W5,Aluminum (Phế liệu nhôm),0,180.00,-180.00
+18,N03W6,Kem hàn thải,N03W6,Hóa chất vô cơ thải bao gồm hoặc có các thành phần nguy hại (Solder thải),0,0,0
+19,N03W7,Phế liệu hạt Niken,N03W7,Phế liệu Niken,0,0,0
+20,N03W8,Titan drum,N03W8,Titan drum ,0,0,0
+21,N03W9,Nhựa ion,N03W9,Nhựa trao đổi ion đã bão hòa hay đã qua sử dụng - Hạt nhựa chứa Au,0,0,0
+22,N03W10,Đồng dạng hạt,N03W10,Copper grain,0,0,0
+23,N03W11,Mép thừa bản mạch,N03W11,Mép thừa bản mạch,0,0,0
+24,N03W12,Ag grain,N03W12,Ag grain,0,0,0
+25,N14W1;N14W2;N14W3,Rác công nghiệp;Rác công nghiệp;Rác công nghiệp,N14W1,Rác công nghiệp không nhiễm thành phần nguy hại,360.00,0,360.00
+26,N14W4,Gỗ thải,N14W4,Gỗ thải,0,0,0
+27,N15W1,Rác bạc,N15W1,Phế liệu rìa mép băng dán sản xuất nẹp tăng cứng,0,0,0
+28,N15W2,Đồng hai mặt,N15W2;N15W6;N15W7,Copper sheet double side;Copper sheet B;Copper sheet single side,0,0,0
+29,N15W3,Rác vàng,N15W3,FPC edge scrap with Gold,0,0,0
+30,N15W4,Găng tay tái chế,N15W4,Găng tay cao su sạch đã qua sử dụng,0,0,0
+31,S01W1,Dung môi chứa bạc,S01W1,Chất thải có chứa bạc từ quá trình xử lý phim ảnh,0,0,0
+32,S02W1,Dầu thải,S02W1,Dầu thải từ thiết bị tách dầu/nước,0,0,0
+33,S02W2,Dầu động cơ; bôi trơn,S02W2,Dầu động cơ; hộp số bôi trơn thải,0,0,0
+34,S03W1,Dầu thủy lực thải,S03W1,Dầu thủy lực thải,0,0,0
+35,S04W1,Hộp mực in,S04W1,Hộp mực in thải có thành phần nguy hại,0,0,0
+36,S05W1,Nhựa chelate chứa Pd,S05W1,Chất hấp thụ; vất liệu lọc; giẻ lau; vải bảo vệ thải bị nhiễm thành phần nguy hại - Hạt nhựa chứa Palladium,0,0,0
+37,S05W2,Nhựa trao đổi ion,S05W2,Nhựa trao đổi ion đã qua sử dụng trong quá trình XLNT,0,0,0
+38,S07W1,Nước thải từ mạ điện,S07W1,Nước thải từ quá trình mạ điện,0,0,0
+39,S07W2,Nước thải (CuSO4),S07W2,Nước thải từ quá trình mạ điện (CuSO4),0,0,0
+40,S07W3,Nicl2 thải pH<2,S07W3,Nước thải từ quá trình mạ điện (Nicl2 thải pH<2),0,0,0
+41,S07W4,Dd sạch bề mặt (Chelate),S07W4,Chất thải từ quá trình rửa; làm sạch bề mặt,0,0,0
+42,S08W1,Bùn hữu cơ ,S08W1,Bùn hữu cơ từ hệ thống xử lý nước thải dây truyền mạ,0,0,0
+43,S08W2,Bùn chứa H2O2,S08W2,Bùn xử lý nước thải chứa H2O2,0,0,0
+44,S08W3,Bùn vô cơ,S08W3,Bùn vô cơ từ hệ thống xử lý nước thải dây truyền mạ,0,0,0
+45,S08W4,Axit tẩy thải (Cucl2; pH<2),S08W4,Dung dịch (CuCl2; pH<2),0,0,0
+46,S09W1,Bóng đèn huỳnh quang thải,S09W1,Bóng đèn thải,0,0,0
+47,S11W1,Axit tẩy thải (HNO3; pH<2),S11W1,Axit tẩy thải(HNO3; pH<2),0,0,0
+48,S12W1,Lonox 5314; 5611,S12W1,Nước thải bazo ( Lonox 5314; 5611),0,0,0
+49,S13W1,Giẻ lau; găng tay nguy hại,S13W1,Chất hấp thụ; vật liệu lọc; giẻ lau; găng tay dính dầu mỡ; dính mực,0,0,0
+50,S13W2,Lõi lọc,S13W2,Các loại chất thải khác có thành phần nguy hại (lõi lọc),0,0,0
+51,S13W3,Bã phim,S13W3,Các loại chất thải khác có thành phần nguy hại (bã phim),0,0,0
+52,S13W4,Pin; ắc quy thải,S13W4,Pin; ắc quy thải,0,0,0
+53,S13W5,Bao bì nhựa thải,S13W5,Bao bì cứng bằng nhựa thải,0,0,0
+54,S13W6,Bao bì kim loại thải,S13W6,Bao bì cứng bằng kim loại thải,0,0,0
+55,S13W7,Composit; thủy tinh;… thải,S13W7,Bao bì cứng bằng các vật liệu khác (Composit; thủy tinh;…) thải,0,0,0
+56,S13W8,Chất thải FPC,S13W8,Chất thải FPC,0,0,0
+57,S13W9,Filter chứa vàng,S13W9,Chất hấp thụ; vật liệu lọc; giẻ lau; vải bảo vệ thải bị nhiễm thành phần nguy hại - Lõi lọc chứa Au,0,0,0
+58,S13W10,Than hoạt tính chứa Pd,S13W10,Than hoạt tính chứa Palladium,0,0,0
+59,S13W11,Filter chứa Pd,S13W11,Chất hấp thụ; vật liệu lọc; giẻ lau; vải bảo vệ thải bị nhiễm thành phần nguy hại - Lõi lọc chứa Palladium,0,0,0
+60,S13W12,FPC chứa linh kiện,S13W12,Sau SMT (Các thiết bị; bộ phận; linh kiện điện tử thải (trừ bản mạch điện tử không chứa các chi tiết có các thành phần nguy hại vượt ngưỡng CTNH)),0,0,0
+61,S13W13,Thiết bị;linh kiện thải,S13W13,Các thiết bị; bộ phận; linh kiện điện tử thải (trừ bản mạch điện tử không chứa các thành phần nguy hại vượt ngưỡng CTNH),0,0,0
+62,S13W14,Cát thải từ khu XLNT,S13W14,Cát thải từ hệ thống xử lý nước,0,0,0
+63,S13W15,Hóa chất PTN thải,S13W15,Hóa chất và hỗn hợp hóa chất phòng thí nghiệm thải có các thành phần nguy hại,0,0,0
+64,S13W16,CFC; HCFC; HFC thải,S13W16,Các chất CFC; HCFC; HFC thải,0,0,0
+65,S13W17,Trước SMT (chưa gắn lk),S13W17,Trước SMT (Phế phẩm bảng vi mạch dẻo chưa gắn linh kiện chứa Au; Ag; Pd; Cu),0,0,0
+66,S12W2,Dung dịch Cromat,S12W2,Dung dịch Cromat thải,0,0,0
+67,S12W3,Javen; Unifresh thải,S12W3,Các chất thải khác có chứa thành phần nguy hại (Javen; Kleankem; Unifresh thải),0,0,0
+68,S13W18,Cromat,S13W18,Cromat,0,0,0
+69,M01W1,Rác sinh hoạt,M01W1,Rác sinh hoạt,0,0,0
+70,M01W2,Hút bể phốt,M01W2,Bùn từ hệ thống xử lý nước thải sinh hoạt; bể phốt; bể mỡ,0,0,0
+71,M01W3,Thông tắc,M01W3,Thông tắc đường ống nước thải,0,0,0

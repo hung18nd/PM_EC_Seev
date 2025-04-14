@@ -1,0 +1,9 @@
+﻿STT,Tên nhóm,Tên phế thải,Mã phế thải,KL tổng (kg),KL bì (kg),KL phế thải (kg),Số thanh,Số pallet,TL bao bì,TL pallet,TL/đơn vị,Hệ số,Tên lệnh cân,Đặc tính,Tên nhà thầu,Tên công ty,Phân loại,Tên phòng ban,Loại hình cân,Phương pháp cân,Biển số xe,Thời gian tạo
+1,Waste Plastic,Nhựa PVC,N01W2,151.00,27.00,124.00,0,0,0,0,0,0,20250113-F1-IN,Tái chế,,Nhà máy F1,Rác bán lấy tiền,Etching,Input,Cân xe đẩy,,1/13/2025 9:47:46 AM
+2,Waste Plastic,Nhựa PVC,N01W2,151.00,40.00,111.00,0,2,10.00,20.00,0,0,20250113-F1-IN,Tái chế,,Nhà máy F1,Rác bán lấy tiền,Copper,Input,Thùng phuy và pallet,,1/13/2025 9:41:00 AM
+3,Waste Plastic,Nhựa PVC,N01W2,151.00,52.00,99.00,0,0,52.00,0,0,0,20250113-F1-IN,Tái chế,,Nhà máy F1,Rác bán lấy tiền,Coverlay Punching,Input,Bao bì,,1/13/2025 9:36:58 AM
+4,Waste Plastic,Nhựa PVC,N01W2,151.00,50.00,101.00,0,0,0,0,0,0,20250113-F1-IN,Tái chế,,Nhà máy F1,Rác bán lấy tiền,Micro,Input,Bao bì,,1/13/2025 9:36:30 AM
+5,Waste Plastic,Nhựa PVC,N01W2,52.00,0.00,52.00,10,0,0,0,0,5.20,20250113-F1-IN,Tái chế,,Nhà máy F1,Rác bán lấy tiền,CL TACK,Input,Vạch bể,,1/13/2025 9:19:19 AM
+6,Waste Plastic,Nhựa PVC,N01W2,150.00,0.00,150.00,0,0,0,0,0,0,20250113-F1-IN,Tái chế,,Nhà máy F1,Rác bán lấy tiền,RGO Manual,Input,Cân Thường,,1/13/2025 9:18:28 AM
+7,Waste Plastic,Nhựa PP (nilon),N01W1,1000.00,0.00,1000.00,0,20,0,0,50.00,0,20250113-F1-IN,Tái chế,,Nhà máy F1,Rác bán lấy tiền,QA,Input,Cân đếm,,1/13/2025 9:17:24 AM
+8,Waste Plastic,Nhựa PP (nilon),N01W1,302.00,0.00,302.00,0,2,0,0,0,0,20250113-F1-IN,Tái chế,,Nhà máy F1,Rác bán lấy tiền,Etching,Input,Cân đếm,,1/13/2025 9:13:08 AM

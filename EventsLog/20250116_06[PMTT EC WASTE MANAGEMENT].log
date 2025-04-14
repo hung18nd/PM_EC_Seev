@@ -1,0 +1,1106 @@
+Đây là LOG file phần mềm Aray Led Test 
+[2025-01-16 06:05:23.280] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'waste_name'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:bebaa1c4-c44c-4505-8fdb-efec028e0e81
+Error Number:207,State:1,Class:16
+[2025-01-16 06:05:26.683] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'waste_name'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:bebaa1c4-c44c-4505-8fdb-efec028e0e81
+Error Number:207,State:1,Class:16
+[2025-01-16 06:05:26.720] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'waste_name'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:bebaa1c4-c44c-4505-8fdb-efec028e0e81
+Error Number:207,State:1,Class:16
+[2025-01-16 06:06:06.904] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'waste_card_code'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_card_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:bebaa1c4-c44c-4505-8fdb-efec028e0e81
+Error Number:207,State:1,Class:16
+[2025-01-16 06:27:28.588] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Ambiguous column name 'pkid'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 338
+ClientConnectionId:35c2775d-154c-4281-a3c6-2d88f9857957
+Error Number:209,State:1,Class:16
+[2025-01-16 06:29:34.056] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'sp_GetDataDefault'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:7be72094-cb90-4446-9fa6-378ba32e5890
+Error Number:2812,State:62,Class:16
+[2025-01-16 06:29:49.678] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+Invalid column name 'waste_card_code'.
+Invalid column name 'category_id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:7be72094-cb90-4446-9fa6-378ba32e5890
+Error Number:207,State:1,Class:16
+[2025-01-16 06:32:02.035] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Ambiguous column name 'pkid'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string)
+ClientConnectionId:7ee3bcff-1390-4469-88a9-92b7408948a0
+Error Number:209,State:1,Class:16
+[2025-01-16 06:32:32.177] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Ambiguous column name 'pkid'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string)
+ClientConnectionId:7ee3bcff-1390-4469-88a9-92b7408948a0
+Error Number:209,State:1,Class:16
+[2025-01-16 06:34:54.411] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'characteristic_id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string)
+ClientConnectionId:e67c79af-2a15-46bb-b40b-3556282bde8e
+Error Number:207,State:1,Class:16
+[2025-01-16 06:36:13.377] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'characteristic_id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 338
+ClientConnectionId:ef01f101-144b-4e5c-ab00-0aef7e820042
+Error Number:207,State:1,Class:16
+[2025-01-16 06:36:25.931] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'characteristic_id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 280
+ClientConnectionId:ef01f101-144b-4e5c-ab00-0aef7e820042
+Error Number:207,State:1,Class:16
+INSERT INTO Tbl_Waste_Management_Waste_Data (waste_id,weighing_order_id,caculator_type,gross_weight,tare_weight,net_weight,number_of_pallets,number_of_bars,created_at,is_use,trolley_id) VALUES(35,16,N'Tự động',151.0,0.0,151.0,0,0,'2025-01-16 06:36:08',1,0);INSERT INTO Tbl_Waste_Management_Weighing_Compound (net_weight,waste_code_id,category_id,treatment_id,weighing_type_id,characteristic_id,classification_id,compound_date,updated_at)VALUES(151.0,'76',1,1,1, 1,1,'2025-01-16','2025-01-16 06:36:13')
+[2025-01-16 06:36:37.497] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'characteristic_id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 338
+ClientConnectionId:ef01f101-144b-4e5c-ab00-0aef7e820042
+Error Number:207,State:1,Class:16
+[2025-01-16 06:37:52.676] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+Invalid column name 'waste_card_code'.
+Invalid column name 'category_id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:72fb786b-28c4-4819-8ba2-4b05f8b1cb03
+Error Number:207,State:1,Class:16
+[2025-01-16 06:50:59.816] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'sp_GetDataDefault'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:273cec8e-eab3-485b-925f-e78974f25b0b
+Error Number:2812,State:62,Class:16
+[2025-01-16 06:51:06.809] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:273cec8e-eab3-485b-925f-e78974f25b0b
+Error Number:207,State:1,Class:16
+[2025-01-16 06:51:06.898] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:273cec8e-eab3-485b-925f-e78974f25b0b
+Error Number:207,State:1,Class:16
+[2025-01-16 06:52:23.972] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:f3c0374c-9087-47c6-a415-f98e0a17e038
+Error Number:207,State:1,Class:16
+[2025-01-16 06:52:24.086] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:f3c0374c-9087-47c6-a415-f98e0a17e038
+Error Number:207,State:1,Class:16
+[2025-01-16 06:52:27.893] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:f3c0374c-9087-47c6-a415-f98e0a17e038
+Error Number:207,State:1,Class:16
+[2025-01-16 06:55:44.419] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:d6b1f9a7-4e18-4b9a-a773-23ff8adab0df
+Error Number:207,State:1,Class:16
+[2025-01-16 06:55:44.484] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:d6b1f9a7-4e18-4b9a-a773-23ff8adab0df
+Error Number:207,State:1,Class:16
+[2025-01-16 06:56:08.476] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:664162ec-2708-4e8a-aa5f-cd0518005eaa
+Error Number:207,State:1,Class:16
+[2025-01-16 06:56:08.627] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:664162ec-2708-4e8a-aa5f-cd0518005eaa
+Error Number:207,State:1,Class:16
+[2025-01-16 06:56:09.866] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:664162ec-2708-4e8a-aa5f-cd0518005eaa
+Error Number:207,State:1,Class:16
+[2025-01-16 06:56:09.915] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:664162ec-2708-4e8a-aa5f-cd0518005eaa
+Error Number:207,State:1,Class:16
+[2025-01-16 06:57:35.263] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:664162ec-2708-4e8a-aa5f-cd0518005eaa
+Error Number:207,State:1,Class:16
+[2025-01-16 06:57:48.706] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:664162ec-2708-4e8a-aa5f-cd0518005eaa
+Error Number:207,State:1,Class:16
+[2025-01-16 06:58:02.052] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'sp_GetDataDefault'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:eb105d32-e3a9-4f1e-840f-d805a755bb9f
+Error Number:2812,State:62,Class:16
+[2025-01-16 06:58:07.077] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:eb105d32-e3a9-4f1e-840f-d805a755bb9f
+Error Number:207,State:1,Class:16
+[2025-01-16 06:58:07.180] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:eb105d32-e3a9-4f1e-840f-d805a755bb9f
+Error Number:207,State:1,Class:16
+[2025-01-16 06:58:08.587] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:eb105d32-e3a9-4f1e-840f-d805a755bb9f
+Error Number:207,State:1,Class:16
+[2025-01-16 06:58:08.657] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:eb105d32-e3a9-4f1e-840f-d805a755bb9f
+Error Number:207,State:1,Class:16
+[2025-01-16 06:58:59.631] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:58:59.701] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:59:01.298] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:59:01.357] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:59:05.919] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\LocalFinal\Local-9-1-2025\Local\Local\DXApplication1\Common\SQLFunc.cs:line 467
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:59:39.631] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20)
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:59:44.282] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20)
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:59:44.383] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20)
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:59:46.122] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20)
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16
+[2025-01-16 06:59:47.864] - [ExecuteDataSetSP/myAdapter.Fill(data_set)] - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'category_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'category_id'.
+Invalid column name 'waste_code'.
+Invalid column name 'treatment_id'.
+Invalid column name 'charateristic_id'.
+Invalid column name 'classification_id'.
+Invalid column name 'waste_name'.
+Invalid column name 'waste_code'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DXApplication1.Common.msSQL.ExecuteDataSetSP(String proc_name, String pname1, Object pvalue1, String pname2, Object pvalue2, String pname3, Object pvalue3, String pname4, Object pvalue4, String pname5, Object pvalue5, String pname6, Object pvalue6, String pname7, Object pvalue7, String pname8, Object pvalue8, String pname9, Object pvalue9, String pname10, Object pvalue10, String pname11, Object pvalue11, String pname12, Object pvalue12, String pname13, Object pvalue13, String pname14, Object pvalue14, String pname15, Object pvalue15, String pname16, Object pvalue16, String pname17, Object pvalue17, String pname18, Object pvalue18, String pname19, Object pvalue19, String pname20, Object pvalue20)
+ClientConnectionId:7596cf37-8e67-4499-b192-f67ff80bea28
+Error Number:207,State:1,Class:16

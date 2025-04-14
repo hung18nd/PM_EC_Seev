@@ -1,0 +1,328 @@
+Đây là LOG file phần mềm Aray Led Test 
+[2025-02-05 08:37:46.856] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\Winform\DXApplication1\Common\SQLFunc.cs:line 260
+ClientConnectionId:dbed7f86-aedc-4997-9b6d-4ab270e5c827
+Error Number:208,State:1,Class:16
+[2025-02-05 08:37:46.873] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTableOnline(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\Winform\DXApplication1\Common\SQLFunc.cs:line 399
+ClientConnectionId:aca83786-da9f-45bc-bc9b-0bc87a953e6d
+Error Number:208,State:1,Class:16
+[2025-02-05 08:39:54.957] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\Winform\DXApplication1\Common\SQLFunc.cs:line 260
+ClientConnectionId:0723dabb-6834-4779-a81b-a0a435fc17a0
+Error Number:208,State:1,Class:16
+[2025-02-05 08:39:54.972] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTableOnline(String query_string) in D:\Work\PMTT\2024\6.ManagingWasteInventory\Software\Winform\DXApplication1\Common\SQLFunc.cs:line 399
+ClientConnectionId:e3edfbb3-6139-4cab-a039-2dfa5421da48
+Error Number:208,State:1,Class:16
+[2025-02-05 08:42:47.908] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string)
+ClientConnectionId:0723dabb-6834-4779-a81b-a0a435fc17a0
+Error Number:208,State:1,Class:16
+[2025-02-05 08:42:47.918] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTableOnline(String query_string)
+ClientConnectionId:e3edfbb3-6139-4cab-a039-2dfa5421da48
+Error Number:208,State:1,Class:16
+[2025-02-05 08:43:14.680] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string)
+ClientConnectionId:0723dabb-6834-4779-a81b-a0a435fc17a0
+Error Number:208,State:1,Class:16
+[2025-02-05 08:43:14.692] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTableOnline(String query_string)
+ClientConnectionId:e3edfbb3-6139-4cab-a039-2dfa5421da48
+Error Number:208,State:1,Class:16
+[2025-02-05 08:47:24.651] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTable(String query_string)
+ClientConnectionId:0723dabb-6834-4779-a81b-a0a435fc17a0
+Error Number:208,State:1,Class:16
+[2025-02-05 08:47:24.666] - [ExecuteDataTable/myAdapter.Fill(data_table)] - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tbl_Waste_Management_Department_Information'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DXApplication1.Common.msSQL.ExecuteDataTableOnline(String query_string)
+ClientConnectionId:6b02003e-e1e6-48f5-a273-4ec0e240fc00
+Error Number:208,State:1,Class:16
+[2025-02-05 08:52:04.242] - [ExecuteNonQuery] - System.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+Cannot insert explicit value for identity column in table 'Tbl_Waste_Management_Department_Information' when IDENTITY_INSERT is set to OFF.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DXApplication1.Common.msSQL.ExecuteNonQuery(String query_string)
+ClientConnectionId:0723dabb-6834-4779-a81b-a0a435fc17a0
+Error Number:544,State:1,Class:16
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (1, N'Micro', N'MIC', N'2025-01-16 04:25:39', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (2, N'Copper', N'COP', N'2025-01-16 04:25:40', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (3, N'Guidehole', N'GHU', N'2025-01-16 04:25:40', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (4, N'Etching', N'ETC', N'2025-01-16 04:25:40', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (5, N'Exposing', N'EXP', N'2025-01-16 04:25:40', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (6, N'DE', N'DEE', N'2025-01-16 04:25:40', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (7, N'QC RGO', N'QCR', N'2025-01-16 04:25:41', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (8, N'QA', N'QAA', N'2025-01-16 04:25:41', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (9, N'RGO Manual', N'RGM', N'2025-01-16 04:25:41', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (10, N'CL TACK', N'CLT', N'2025-01-16 04:25:42', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (11, N'Coverlay Punching', N'CVP', N'2025-01-16 04:25:42', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (12, N'Printing', N'PRI', N'2025-01-16 04:25:42', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (13, N'Stiffener', N'STF', N'2025-01-16 04:25:42', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (14, N'UV5', N'UVL', N'2025-01-16 04:25:43', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (15, N'27 PL', N'27P', N'2025-01-16 04:25:43', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (16, N'SMT BNA', N'BNA', N'2025-01-16 04:25:43', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (17, N'UV2', N'UV2', N'2025-01-16 04:25:43', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (18, N'NCC', N'NC2', N'2025-01-16 04:25:43', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (19, N'Warehouse', N'WHS', N'2025-01-16 04:25:44', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (20, N'Punching', N'PUN', N'2025-01-16 04:25:44', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (21, N'Assembly', N'ASS', N'2025-01-16 04:25:44', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (22, N'PE', N'PEE', N'2025-01-16 04:25:44', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (23, N'Mounting', N'MOU', N'2025-01-16 04:25:44', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (24, N'QC OTHERS', N'QCO', N'2025-01-16 04:25:45', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (25, N'MQC', N'MQC', N'2025-01-16 04:25:45', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (26, N'QC FVI', N'QCF ', N'2025-01-16 04:25:45', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (27, N'QC', N'QCC', N'2025-01-16 04:25:45', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (28, N'RGO BIKU-PUN', N'RGB', N'2025-01-16 04:25:45', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (29, N'RGO INKJET', N'RGI', N'2025-01-16 04:25:46', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (30, N'RGO ép PI', N'RGP', N'2025-01-16 04:25:46', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (31, N'RGO Dán Auto Sus', N'RGS', N'2025-01-16 04:25:46', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (32, N'RGO Lazer ', N'RGL', N'2025-01-16 04:25:46', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (33, N'RGO checker', N'RGK', N'2025-01-16 04:25:47', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (34, N'WWT', N'WWT', N'2025-01-16 04:25:47', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (35, N'ME', N'MEE', N'2025-01-16 04:25:47', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (36, N'SIM', N'SIM', N'2025-01-16 04:25:47', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (37, N'Checker', N'CHE', N'2025-01-16 04:25:47', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (38, N'F3', N'F33', N'2025-01-16 04:25:47', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (39, N'F4', N'F44', N'2025-01-16 04:25:48', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (40, N'CL Punching', N'CPU', N'2025-01-16 04:25:48', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (41, N'ACF', N'ACF', N'2025-01-16 04:25:48', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (42, N'Kho hóa chất', N'KHC', N'2025-01-16 04:25:48', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (43, N'PMC', N'PMC', N'2025-01-16 04:25:48', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (44, N'CL PRESS', N'CLP', N'2025-01-16 04:25:49', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (45, N'BIKU', N'BIK', N'2025-01-16 04:25:49', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (46, N'Analysit', N'ANA', N'2025-01-16 04:25:49', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (47, N'AOI', N'AOI', N'2025-01-16 04:25:49', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (48, N'NPI - Die - jig', N'NPI', N'2025-01-16 04:25:50', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (49, N'Mạ vàng', N'GOL', N'2025-01-16 04:25:50', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (50, N'HR', N'HUR', N'2025-01-16 04:25:50', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (51, N'QA training', N'QA5', N'2025-01-16 04:25:50', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (52, N'QA IQC', N'QAI', N'2025-01-16 04:25:51', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (53, N'Shipping', N'PMC', N'2025-01-16 04:25:51', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (54, N'AOM', N'AOM', N'2025-01-16 04:25:51', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (55, N'PE - NPI', N'PEI', N'2025-01-16 04:25:51', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (56, N'Back end 3', N'BE3', N'2025-01-16 04:25:52', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (57, N'Back end 4', N'BE4', N'2025-01-16 04:25:52', N'2025-02-03 14:00:20', 1);
+INSERT INTO Tbl_Waste_Management_Department_Information (pkid, department_name, abb_name, created_at, update_at, is_use) VALUES (58, N'Smart Factory', N'SF', N'2025-01-21 02:44:48', N'2025-02-03 14:00:20', 1);
+

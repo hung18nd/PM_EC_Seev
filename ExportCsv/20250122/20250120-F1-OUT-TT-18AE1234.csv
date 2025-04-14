@@ -1,0 +1,8 @@
+﻿STT,Tên phế thải nhập vào,Tên phế thải xuất ra,Phòng ban,Số vạch,Số pallet,Loại tính toán,Kiểu cân,KL tổng(kg),KL bao bì(kg),KL phế thải(kg),Thời gian cân
+1,Phế liệu sắt vụn,Steel scrap (Phế liệu sắt vụn),,0,0,Tự động,Cân Thường,151.00,0.00,151.00,1/20/2025 1:18:16 PM
+2,Dung môi chứa bạc,Chất thải có chứa bạc từ quá trình xử lý phim ảnh,,0,0,Thao tác,Thùng phuy và pallet,150.00,0.00,150.00,1/20/2025 1:17:54 PM
+3,Hộp mực in,Hộp mực in thải có thành phần nguy hại,,0,0,Tự động,Bao bì,150.00,50.00,100.00,1/20/2025 1:17:47 PM
+4,Bã phim,Các loại chất thải khác có thành phần nguy hại (bã phim),,0,0,Tự động,Bao bì,150.00,50.00,100.00,1/20/2025 1:17:36 PM
+5,Bao bì kim loại thải,Bao bì cứng bằng kim loại thải,,0,10,Thao tác,Cân đếm,200.00,0.00,200.00,1/20/2025 1:17:17 PM
+6,Cát thải từ khu XLNT,Cát thải từ hệ thống xử lý nước,,0,0,Tự động,Bao bì,150.00,2.00,148.00,1/20/2025 1:13:52 PM
+7,Dung dịch Cromat,Dung dịch Cromat thải,,0,0,Tự động,Cân Thường,150.00,0.00,150.00,1/20/2025 1:13:18 PM
